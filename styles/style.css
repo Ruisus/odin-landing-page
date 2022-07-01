@@ -17,22 +17,11 @@ body{
     padding: 20px;
 }
 
-.main-body{
-    flex: 1;
-    margin: 0 auto;
-    max-width: 1500px;
-}
-
 .logo{
     font-size: 24px;
     font-weight: 700;
 }
 
-.footer{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-}
 
 ul{
     display: flex;
@@ -42,8 +31,70 @@ ul{
     gap: 18px;
 }
 
-a{
+a,
+.top-content p{
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.main-body{
+    margin: 0;
+    flex: 1;
+}
+
+.top-content{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: -100px;
+}
+
+.main-hero{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+    inline-size: 450px;
+}
+
+.top-content p{
+    inline-size: 450px;
+}
+
+.top-content button{
+    background-color: #3882f6;
+    color: #F9FaF8;
+    font-weight: bold;
+    padding: 0.6em 2em;
+    border-radius: 8px;
+    border: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.img-placeholder{
+    background-color: rgba(103, 128, 159, 1);
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 75px 150px;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
