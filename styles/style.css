@@ -1,34 +1,40 @@
-
-body{
-    margin:0;
-    padding: 0;
+*{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.header,
+.page-head,
 .footer{
     background-color: #1f2937;
-    display: flex;
-    justify-content: space-between;
     color: #F9FaF8;
-    padding: 20px;
+}
+
+
+.header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1em 17.5em;
 }
 
 .logo{
     font-size: 24px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 
 ul{
     display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 18px;
+    width: 40%;
+    justify-content: space-around;
 }
 
 a,
@@ -41,32 +47,39 @@ a,
 .main-body{
     margin: 0;
     flex: 1;
+    padding: 1em 17.5em;
 }
 
 .top-content{
     background-color: #1f2937;
     display: flex;
+    width: auto;
+    height: 500px;
     justify-content: space-around;
+    align-items: center;
 }
 
-.left-side{
+.left-side{   
     display: flex;
     flex-direction: column;
+    width: 39%;
     padding: 100px;
     flex-wrap: wrap;
     margin-left: auto;
-    margin-right: -100px;
 }
 
 .main-hero{
     font-size: 48px;
-    font-weight:bolder;
+    font-weight: bolder;
     color: #f9faf8;
     inline-size: 450px;
+    
 }
 
 .top-content p{
     inline-size: 450px;
+    margin: 10px 0;
+
 }
 
 .top-content button{
@@ -82,13 +95,15 @@ a,
 
 
 .img-placeholder{
-    background-color: rgba(103, 128, 159, 1);
-    color: white;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    padding: 75px 150px;
+    margin-right: auto;
+}
+
+.img-placeholder img{
+    width: 600px;
+    height: 300px;
 }
 
 
