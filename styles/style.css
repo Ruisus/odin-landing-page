@@ -1,3 +1,5 @@
+/* Styling targeting everything in the body*/
+
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -9,13 +11,14 @@ body{
     min-height: 100vh;
 }
 
+/* Adds the background color and text color to header and footer bc they are similar*/
 .page-head,
 .footer{
     background-color: #1f2937;
     color: #F9FaF8;
 }
 
-
+/* Navigation header styling*/
 .header{
     display: flex;
     align-items: baseline;
@@ -37,6 +40,7 @@ ul{
     justify-content: space-around;
 }
 
+/* Similar styling for header links and hero small paragraph text in the top-content class */
 a,
 .top-content p{
     text-decoration: none;
@@ -44,12 +48,7 @@ a,
     font-size: 18px;
 }
 
-.main-body{
-    margin: 0;
-    flex: 1;
-    padding: 1em 17.5em;
-}
-
+/* Top content styling including image*/
 .top-content{
     background-color: #1f2937;
     display: flex;
@@ -72,8 +71,7 @@ a,
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-    inline-size: 450px;
-    
+    inline-size: 450px;   
 }
 
 .top-content p{
@@ -93,7 +91,7 @@ a,
     height: fit-content;
 }
 
-
+/* image formatting and styling to keep image a particular size*/
 .img-placeholder{
     display:flex;
     justify-content: center;
@@ -106,8 +104,14 @@ a,
     height: 300px;
 }
 
+/* Styling for the rest of the content below the page-head class*/
+.main-body{
+    margin: 0;
+    flex: 1;
+    padding: 1em 17.5em;
+}
 
-
+/* Styling for the bottom footer*/
 .footer{
     display: flex;
     justify-content: center;
