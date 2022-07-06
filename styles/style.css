@@ -111,27 +111,48 @@ a,
     padding: 1em 17.5em;
 }
 
+/* Styling for the mid section of the webpage*/
+.mid-content{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 400px;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
 .info-head{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
     display: flex;
     justify-content: center;
-    padding: 30px;
+    margin: 0 auto;
 }
 
 .boxes{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+    width: 200px;
 }
 
 .round-box{
-    max-width: 100px;
-    padding: 55px 25px 55px 25px;
+    padding: 55px 20px 55px 20px;
     text-align: center;
     border: 3px solid #3882f6;
     border-radius: 5px;
+}
+
+.text{
+    text-align: center;
+    color: #1f2937;
+    font-size: medium;
+    font-weight:lighter;
+    padding-top: 0.5em;
 }
 
 /* Styling for the bottom footer*/
