@@ -2,8 +2,9 @@
 
 *{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    margin: 0px;
     padding: 0;
+    /* border: 1px solid black; can be uncommented if needed */
 }
 body{
     display: flex;
@@ -24,7 +25,8 @@ body{
     align-items: baseline;
     justify-content: space-between;
     margin: auto;
-    padding: 1em 17.5em;
+    padding: 20px 0px;
+    width: 80%;
 }
 
 .logo{
@@ -122,6 +124,7 @@ a,
     align-content: space-around;
 }
 
+/* Styling for random information header on webpage*/
 .info-head{
     font-size: 36px;
     font-weight: bolder;
@@ -131,17 +134,20 @@ a,
     margin: 0 auto;
 }
 
+/* Styling for boxes and text below the info-header*/
 .boxes{
     display: flex;
     justify-content: space-around;
 }
 
 .box{
-    width: 200px;
+    width: 150px;
 }
 
 .round-box{
-    padding: 55px 20px 55px 20px;
+    height: fit-content;
+    padding: 60px 0px;
+    width: 150px;
     text-align: center;
     border: 3px solid #3882f6;
     border-radius: 5px;
@@ -153,6 +159,17 @@ a,
     font-size: medium;
     font-weight:lighter;
     padding-top: 0.5em;
+}
+
+.quote-section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+.quote-container{
+    width: 50%;
 }
 
 /* Styling for the bottom footer*/
