@@ -17,6 +17,7 @@ body{
 .footer{
     background-color: #1f2937;
     color: #F9FaF8;
+    flex: 0 1 auto;
 }
 
 /* Navigation header styling*/
@@ -110,7 +111,6 @@ a,
 .main-body{
     margin: 0;
     flex: 1;
-    padding: 1em 17.5em;
 }
 
 /* Styling for the mid section of the webpage*/
@@ -122,6 +122,7 @@ a,
     height: 400px;
     justify-content: space-evenly;
     align-content: space-around;
+    padding-bottom: 60px;
 }
 
 /* Styling for random information header on webpage*/
@@ -138,6 +139,7 @@ a,
 .boxes{
     display: flex;
     justify-content: space-around;
+    flex: 0 1 0;
 }
 
 .box{
@@ -161,16 +163,77 @@ a,
     padding-top: 0.5em;
 }
 
+/* Styling for the quote sections */
 .quote-section{
-    height: 400px;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 60px;
     background-color: #e5e7eb;
+    text-overflow: ellipsis;
+    flex-wrap: wrap;
 }
+
 .quote-container{
     width: 50%;
 }
+
+.quote-container p{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937;
+    flex: 0 1 0;
+}
+
+.quotee{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 40px 60px;
+    width: 850px;
+    flex: 0 1 auto;
+}
+
+.action-body{
+    color: #F9FaF8;
+}
+
+.action-body .head{
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+div .sign-button{
+    color: #F9FaF8;
+    font-weight: bold;
+    padding: 0.6em 2em;
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #3882f6;
+    border-color: white;
+}
+
 
 /* Styling for the bottom footer*/
 .footer{
