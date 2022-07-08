@@ -195,6 +195,7 @@ a,
     font-weight: bold;
 }
 
+/* Sign Up Action css styling and flexbox*/
 .sign-up-section{
     display: flex;
     justify-content: center;
@@ -233,7 +234,6 @@ div .sign-button{
     background-color: #3882f6;
     border-color: white;
 }
-
 
 /* Styling for the bottom footer*/
 .footer{
